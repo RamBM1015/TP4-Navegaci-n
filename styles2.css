@@ -1,0 +1,146 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #70b2f5;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estado activo */
+nav a.activo {
+  color: #ffcc00;
+}
+
+/* Estados de enlaces */
+a:link {
+  color: #004080;
+}
+
+a:visited {
+  color: #663399;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #cc0000;
+}
+
+/* Botón */
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #218838;
+}
+
+/* Jerarquía visual */
+h1 {
+  color: #004080;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004080;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Tabla */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Encabezados */
+thead {
+  background-color: #004080;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover en filas */
+tbody tr:hover {
+  background-color: #d9edf7;
+}
+
+/* Caption */
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #004080;
+}
+
+/* Footer de tabla */
+tfoot {
+  background-color: #eee;
+  font-style: italic;
+}
